@@ -3,7 +3,7 @@
 
 ### Due: Sept 13 at the start of class.
 
-The GitHub Classroom link for this assignment can be found here:
+The GitHub Classroom link for this assignment can be found here: https://classroom.github.com/a/XlkuZ7hY
 
 To turn in: commit all of your code to your github repo by the deadline. 
 
