@@ -5,21 +5,21 @@ import java.util.Scanner;
 
 public class Fortune {
 
-    public static Scanner getFileHandle(String filename) {
+    public static Scanner getFileHandle() {
 
     }
 
 
-    public static String getFirstFortune(Scanner fortuneFile) {
+    public static String getFirstFortune(String filename) {
 
 
     }
 
-    public static int fortuneCount(Scanner fortuneFile) {
+    public static int fortuneCount(String filename) {
 
     }
 
-    public static String getRandomFortune(Scanner fortuneFile) {
+    public static String getRandomFortune(String filename) {
 
     }
 
@@ -27,7 +27,7 @@ public class Fortune {
 
     }
 
-    public static void search(Scanner fortuneFile, String keyword) {
+    public static void search(String filename, String keyword) {
 
     }
 
@@ -35,7 +35,7 @@ public class Fortune {
 
     }
 
-    public static void shortFortunes(Scanner fortuneFile, int fortuneLength) {
+    public static void shortFortunes(String filename, int fortuneLength) {
 
     }
 

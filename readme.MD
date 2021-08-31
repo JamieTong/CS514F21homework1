@@ -33,11 +33,12 @@ The fortune file is formatted as a series of multi-line fortunes, each separated
 Task 1: Implement the getFileHandle method. It takes as input a String representing the filename, and returns a Scanner connected to the file.
 If there is an error, print an error message and return null.
 
-Task 2. Implement the getFirstFortune method. It should take as input a Scanner (from task 1), and return a String containing the first fortune.
+Task 2. Implement the getFirstFortune method. It should take as input a filename, call getFileHandle (from task 1), and return a String containing the first fortune.
 
-Task 3. Implement fortuneCount. It should take as input a Scanner (from task 1), and return an int indicating how many fortunes are in the file.
+Task 3. Implement fortuneCount. It should take as input a filename call getFileHandle, and return an int indicating how many fortunes are in the file.
+(note: if you want to store this in a variable, that might help later.)
 
-Task 4. Implement getRandomFortune. It should take as input a Scanner (from task 1), generate a random number between 1 and the number of fortunes,
+Task 4. Implement getRandomFortune. It should take as input a filename (from task 1), generate a random number between 1 and the number of fortunes,
 and then find and print that fortune.
 
 Task 5. Implement the userInterface method. It should:
@@ -48,9 +49,9 @@ Task 5. Implement the userInterface method. It should:
 
 Task 6. Extend userInterface to give the user the option to get a number of fortunes all at once, and print each of them out. Extend the userInterface method to support this.
 
-Task 7. Implement the search method. It should take as input a Scanner and a word to search for, and return the first fortune containing that word. (exact matches only.) Extend the userInterface method to support this.
+Task 7. Implement the search method. It should take as input a filename and a word to search for, and return the first fortune containing that word. (exact matches only.) Extend the userInterface method to support this.
 
-Task 8. Implement the shortFortunes method. It should take as input a Scanner and an int indicating the length, and print out all fortunes less than that length. Extend the userInterface method to support this.
+Task 8. Implement the shortFortunes method. It should take as input a filename and an int indicating the length, and print out all fortunes less than that length. Extend the userInterface method to support this.
 
 Task 9. Implement the writeFortune method. It should take as input a String representing a filename and a String containing a fortune, and write the fortune to the *end* of that file.
 
