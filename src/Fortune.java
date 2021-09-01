@@ -27,7 +27,7 @@ public class Fortune {
 
     }
 
-    public static void search(String filename, String keyword) {
+    public static String search(String filename, String keyword) {
 
     }
 
@@ -35,7 +35,7 @@ public class Fortune {
 
     }
 
-    public static void shortFortunes(String filename, int fortuneLength) {
+    public static String shortFortunes(String filename, int fortuneLength) {
 
     }
 
