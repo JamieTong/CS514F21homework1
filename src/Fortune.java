@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Fortune {
 
-    public static Scanner getFileHandle() {
+    public static Scanner getFileHandle(String filename) {
 
     }
 
